@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romo Van Lith</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 90px;
+    }
+    body {
+      background-color: #f5f0e6;
+    }
+    .bg-transcient {
+      background: linear-gradient(to bottom,#6b4c3b,#a67c52);
+    }
+    .navbar-nav .nav-link {
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #fbeacc;
+      border-radius: 5px;
+      margin-right: 10px;
+      color: #4e342e !important;
+    }
+    .navbar-nav .nav-link:hover {
+      background-color: #ffecb3;
+      color: #3e2723 !important;
+    }
+    footer {
+      background-color: #4e342e !important;
+    }
+    .navbar-nav {
+      margin-left: 0;
+    }
+    .navbar-collapse {
+      justify-content: start;
+    }
+    .navbar-toggler {
+      margin-left: auto;
+    }
+    .img-news {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 4px 4px 0 0;
+    }
+    .logo-historis {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #8d6e63;
+      background-color: #e0d0c0;
+      padding: 4px;
+    }
+    .btn-primary {
+      background-color: #795548;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #5d4037;
+    }
+    .card-body .btn {
+      display: block;
+      margin-top: auto;
+    }
+    .foto-biografi {
+      height: 350px;
+      width: auto;
+      max-width: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<link rel="stylesheet" href="vanlith.css">
+<img src="img/romo1.jpg" alt="Romo Van Lith">
+
+<!-- Beranda Placeholder -->
+<section id="beranda"></section>
+
+<!-- Logo dan Judul -->
+<div class="container text-center mt-3">
+  <img src="img/romo1.jpg" alt="Romo van Lith" class="logo-historis">
+  <h1 class="mt-2" style="color:#5d4037; font-weight:bold;">Romo Van Lith</h1>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-transcient sticky-top">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#beranda"><i class="bi bi-house-door"></i> Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#biografi"><i class="bi bi-info-circle"></i> Biografi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#informasi-lanjutan"><i class="bi bi-newspaper"></i> Informasi Lanjutan</a></li>
+        <li class="nav-item"><a class="nav-link" href="#video-youtube"><i class="bi bi-youtube"></i> Video YouTube</a></li>
+      </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Biografi -->
+<section id="biografi" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Tentang Romo Van Lith</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p>Romo Franciscus Georgius Josephus Van Lith, SJ adalah seorang imam Katolik asal Belanda yang berjasa besar dalam pengembangan pendidikan dan penyebaran agama Katolik di Indonesia, khususnya di Pulau Jawa.</p>
+        <ul>
+          <li><strong>Nama Lengkap:</strong> Fransiscus Georgius Josephus van Lith</li>
+          <li><strong>Tempat, Tanggal Lahir:</strong> Oirschot, Belanda, 17 Mei 1863</li>
+          <li><strong>Wafat:</strong> 9 Januari 1926</li>
+          <li><strong>Kebangsaan:</strong> Belanda</li>
+          <li><strong>Kongregasi:</strong> Serikat Jesus (SJ)</li>
+          <li><strong>Peran:</strong> Misionaris Katolik dan Pendidik</li>
+        </ul>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="img/romo1.jpg" alt="Foto Van Lith" class="img-fluid rounded shadow foto-biografi">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Informasi Lanjutan -->
+<section id="informasi-lanjutan" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Informasi Lanjutan</h2>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm d-flex flex-column">
+          <img src="img/romo1.jpg" class="card-img-top img-news" alt="Informasi 1">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Sumbangsih Kebudayaan</h5>
+            <p class="card-text">Van Lith menyadari bahwa lambatnya penerimaan agenda misi Katolik disebabkan strategi yang kurang tepat...</p>
+            <a href="https://indonesia.go.id/kategori/komoditas/330/sumbangsih-kebudayaan-romo-van-lith" target="_blank" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm d-flex flex-column">
+          <img src="img/romo2.jpg" class="card-img-top img-news" alt="Informasi 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Pembuka Pendidikan Guru</h5>
+            <p class="card-text">Van Lith membuka pendidikan modern sambil tetap menghormati budaya Jawa.</p>
+            <a href="https://kebudayaan.kemdikbud.go.id/ditwdb/franciscus-georgius-josephus-van-lith-pembuka-pendidikan-guru-di-jawa/" target="_blank" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm d-flex flex-column">
+          <img src="img/romo3.jpg" class="card-img-top img-news" alt="Informasi 3">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Pejuang Pendidikan</h5>
+            <p class="card-text">Van Lith mengabdikan hidupnya untuk pendidikan dan keimanan di Jawa.</p>
+            <a href="https://www.kompas.com/stori/read/2022/07/18/100000279/van-lith-pejuang-pendidikan-di-pulau-jawa" target="_blank" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm d-flex flex-column">
+          <img src="img/romo4.jpg" class="card-img-top img-news" alt="Informasi 4">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Jejak Warisan Van Lith</h5>
+            <p class="card-text">Warisan pendidikan dan semangat toleransi Van Lith masih terasa hingga kini melalui berbagai lembaga.</p>
+            <a href="#" class="btn btn-primary mt-auto">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Video YouTube -->
+<section id="video-youtube" class="py-5">
+  <div class="container">
+    <h3 class="text-center mb-4">Video YouTube</h3>
+    <div class="row">
+      <div class="col-md-6 col-lg-3 mb-3"><iframe class="w-100" height="200" src="https://www.youtube.com/embed/zGKqsqi3ObY" frameborder="0" allowfullscreen></iframe></div>
+      <div class="col-md-6 col-lg-3 mb-3"><iframe class="w-100" height="200" src="https://www.youtube.com/embed/vBepsYnv5U0" frameborder="0" allowfullscreen></iframe></div>
+      <div class="col-md-6 col-lg-3 mb-3"><iframe class="w-100" height="200" src="https://www.youtube.com/embed/DApZbmn9jjE" frameborder="0" allowfullscreen></iframe></div>
+      <div class="col-md-6 col-lg-3 mb-3"><iframe class="w-100" height="200" src="https://www.youtube.com/embed/cJA3hLorHOM" frameborder="0" allowfullscreen></iframe></div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-white py-4">
+  <div class="container text-center">
+    <p>&copy; 2025 Varrel Raditya. All Rights Reserved.</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/vincentius_varrel/" class="text-white" target="_blank"><i class="bi bi-instagram"></i></a>
+    </div>
+    <a href="#beranda" class="btn btn-light mt-3"> Kembali ke Atas</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

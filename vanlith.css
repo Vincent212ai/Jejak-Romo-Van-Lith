@@ -1,0 +1,81 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  background-color: #f5f0e6;
+}
+
+.bg-transcient {
+  background: linear-gradient(to bottom,#6b4c3b,#a67c52);
+}
+
+.navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fbeacc;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #4e342e !important;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #ffecb3;
+  color: #3e2723 !important;
+}
+
+footer {
+  background-color: #4e342e !important;
+}
+
+.navbar-nav {
+  margin-left: 0;
+}
+
+.navbar-collapse {
+  justify-content: start;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.img-news {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+.logo-historis {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #8d6e63;
+  background-color: #e0d0c0;
+  padding: 4px;
+}
+
+.btn-primary {
+  background-color: #795548;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #5d4037;
+}
+
+.card-body .btn {
+  display: block;
+  margin-top: auto;
+}
+
+.foto-biografi {
+  height: 350px;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
